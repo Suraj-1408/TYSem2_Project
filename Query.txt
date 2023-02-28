@@ -1,0 +1,9 @@
+
+Table name:projects_info
+postgres=# create table projects_info(pid serial primary key,pname varchar(50),ptype varchar(60),pstatus varchar(10),psdat date,pedat date,plocation varchar(20),latitude varchar(20),longitude varchar(20));
+CREATE TABLE
+postgres=#
+
+//Add of Check Constraint
+postgres=# alter table sample add constraint con check(pstatus='ONG' OR pstatus='ONG');
+ALTER TABLE
