@@ -5,5 +5,5 @@ CREATE TABLE
 postgres=#
 
 //Add of Check Constraint
-postgres=# alter table sample add constraint con check(pstatus='ONG' OR pstatus='ONG');
+postgres=# alter table projects_info add constraint con check(pstatus='ONG' OR pstatus='ONG');
 ALTER TABLE
